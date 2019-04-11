@@ -40,3 +40,6 @@ default['threatstack']['enable_containers'] = nil
 # To install the agent, but skip configuration for later, set this flag to true
 # This can be useful in the case of baking an AMI for deployment later
 default['threatstack']['install_only'] = false
+
+# If you want sensitive data going to stdout, set this value to true.
+default['threatstack']['debug'] = false
